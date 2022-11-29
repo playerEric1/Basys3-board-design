@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Feb 09 17:30:23 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="c2bae4c68a9f49109612a6cc065a057c" type="ProjectID"/>
+<property name="ProjectIteration" value="7" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="14" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="2" type="JavaHandler"/>
+<property name="EditConstraintSets" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="6" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="2" type="JavaHandler"/>
+<property name="NewProject" value="4" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="4" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="2" type="JavaHandler"/>
+<property name="RunBitgen" value="7" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="3" type="JavaHandler"/>
+<property name="ShowView" value="2" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 127, 224" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 131, 297" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, constrs_studio2.xdc], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, constrs_studio2.xdc], 4, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, toplevel_constrain.xdc], 8, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, toplevel_constrain.xdc], 8, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Display_driver - Behavioral (Dislay_driver.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, LEDdisplay - structural (LEDdisplay.vhd" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, toplevel - Behavioral (toplevel.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="constrs_studio2.xdc, 1, 44" value="1" type="GuiResourceData"/>
+<property name="constrs_studio2.xdc, 127, 46" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 88, 282" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 0, 30" value="2" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 122, 72" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 16, 382" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 26, 210" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 277, 376" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 294, 40" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 300, 216" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 300, 26" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 300, 297" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 318, 28" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 320, 334" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 40, 183" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 406, 350" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 411, 282" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 429, 288" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 434, 160" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 436, 349" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 452, 354" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 475, 346" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 492, 385" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 654, 432" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 722, 428" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 76, 196" value="1" type="GuiResourceData"/>
+<property name="toplevel_constrain.xdc, 8, 26" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="10" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="9" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Apr 13 17:51:16 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="73cb5d283572488897bdfdae0879ea75" type="ProjectID"/>
+<property name="ProjectIteration" value="21" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="13" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="11" type="JavaHandler"/>
+<property name="CloseProject" value="7" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="9" type="JavaHandler"/>
+<property name="NewProject" value="3" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="8" type="JavaHandler"/>
+<property name="OpenProject" value="5" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="4" type="JavaHandler"/>
+<property name="RefreshDevice" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="20" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="4" type="JavaHandler"/>
+<property name="ShowView" value="8" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, toplevel - Structural (toplevel.vhd" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, C:/CoCO/Studio/studio_7/studio_7.xpr, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_PROJECT_SUMMARY, Project Summary" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, anode, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, cur_state, true" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 113, 398" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 129, 306" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 131, 213" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 132, 297" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 132, 375" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 132, 385" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 132, 385, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 145, 400" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 153, 365" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 171, 364" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 220, 344" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 230, 399" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 236, 352" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 250, 349" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 251, 347" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 253, 438" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 254, 264" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 263, 383" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 264, 387" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 266, 301" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 272, 218" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 273, 298" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 279, 402" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 308, 264" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 342, 332" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 354, 350" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 356, 435" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 363, 340" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 37, 394" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 413, 436" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 47, 388" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 68, 352" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 70, 397" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 82, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 84, 419" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 86, 366" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 98, 163" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 98, 229" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="28" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="24" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
