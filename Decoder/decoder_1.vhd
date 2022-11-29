@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 2022/03/02 18:34:55
+-- Create Date: 2022/03/02 18:03:43
 -- Design Name: 
--- Module Name: studio5_2 - Behavioral
+-- Module Name: decoder_1 - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,23 +31,27 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity studio5_2 is
-  Port ( g : in STD_LOGIC;
-       g2a: in STD_LOGIC;
-       g2b: in STD_LOGIC;
-        A: in STD_LOGIC;
-        B: in STD_LOGIC;
-        C: in STD_LOGIC;
-        F: out STD_LOGIC);
-end studio5_2;
+entity decoder_1 is
+PORt ( g : in STD_LOGIC;
+        g2a: in STD_LOGIC;
+        g2b: in STD_LOGIC;
+         x : in STD_LOGIC_VECTOR (2 downto 0);
+        led : out STD_LOGIC_VECTOR (7 downto 0));
+end decoder_1;
 
-architecture Behavioral of studio5_2 is
+architecture Behavioral of decoder_1 is
 
 begin
 
-F <= '0' when (g='0' or g2a='1' or g2b='1') else
-     '1' when (A='0' and B='1') else
-     '1' when (A='1' and B='0') else
-     '1' when (B='1' and C='0');
+led <= "11111111" when (g='0' or g2a='1' or g2b='1') else
+        "01111111" when (x="000") else
+        "10111111" when (x="001") else
+        "11011111" when (x="010") else
+        "11101111" when (x="011") else
+        "11110111" when (x="100") else
+        "11111011" when (x="101") else                                
+        "11111101" when (x="110") else
+        "11111110" when (x="111");
+    
 
 end Behavioral;

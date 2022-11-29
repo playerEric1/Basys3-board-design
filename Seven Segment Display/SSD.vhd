@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 2022/03/02 18:03:43
+-- Create Date: 2022/02/02 13:27:19
 -- Design Name: 
--- Module Name: studio5_task1 - Behavioral
+-- Module Name: SSD - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,27 +31,37 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity studio5_task1 is
-PORt ( g : in STD_LOGIC;
-        g2a: in STD_LOGIC;
-        g2b: in STD_LOGIC;
-         x : in STD_LOGIC_VECTOR (2 downto 0);
-        led : out STD_LOGIC_VECTOR (7 downto 0));
-end studio5_task1;
+entity SSD is
+Port (switch : in STD_LOGIC_VECTOR (3 downto 0);
+      AN : out STD_LOGIC_VECTOR (3 downto 0);
+      Seg : out STD_LOGIC_VECTOR (0 to 6));
 
-architecture Behavioral of studio5_task1 is
+end SSD;
+
+architecture Behavioral of SSD is
 
 begin
 
-led <= "11111111" when (g='0' or g2a='1' or g2b='1') else
-        "01111111" when (x="000") else
-        "10111111" when (x="001") else
-        "11011111" when (x="010") else
-        "11101111" when (x="011") else
-        "11110111" when (x="100") else
-        "11111011" when (x="101") else                                
-        "11111101" when (x="110") else
-        "11111110" when (x="111");
-    
+with switch select Seg <=
+
+"0000001" when "0000",
+"1001111" when "0001",
+"0010010" when "0010",
+"0000110" when "0011",
+"1001100" when "0100",
+"0100100" when "0101",
+"0100000" when "0110",
+"0001111" when "0111",
+"0000000" when "1000",
+"0000100" when "1001",
+"0001000" when "1010",
+"1100000" when "1011",
+"0110001" when "1100",
+"1000010" when "1101",
+"0110000" when "1110",
+"0111000" when "1111",
+"1111111" when others;
+
+AN <= "1110";
 
 end Behavioral;
