@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 2022/03/16 16:35:07
 -- Design Name: 
--- Module Name: task3 - Behavioral
+-- Module Name: encoder - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,14 +31,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity task3 is
+entity encoder is
 Port (EI: in STD_LOGIC;
       I: in STD_LOGIC_VECTOR (7 downto 0);
       A: out STD_LOGIC_VECTOR (2 downto 0);
       GS: out STD_LOGIC;
       EO: out STD_LOGIC);
-end task3;
-architecture Behavioral of task3 is
+end encoder;
+architecture Behavioral of encoder is
 begin
 
 EO <= EI or (NOT (I(0) AND I(1) AND I(2) AND I(3) AND I(4) AND I(5) AND I(6) AND I(7)));
